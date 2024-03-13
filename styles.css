@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #000000;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 15vh;
+  width: 100vw;
+  max-width: 100%;
+  margin-top: 1.5%;
+}
+.header_logo {
+  height: 90%;
+}
+.header_logo_a {
+  height: 90%;
+}
+.header_logo_a_img {
+  height: 90%;
+}
+
+.header_nav {
+  display: flex;
+  gap: 0.75rem;
+}
+
+.header_nav a {
+  font-size: 1.3rem;
+  color: #949494;
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 1024px) {
+}
